@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import HelloWorld from './components/HelloWorld'
+import App from './containers/App'
 
 // 2 params, component and the place where im going to push the component
-ReactDOM.render(<HelloWorld />, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById('app'));
